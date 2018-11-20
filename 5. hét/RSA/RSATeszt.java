@@ -55,10 +55,6 @@ public class RSATeszt {
                 }
 
             }
-
-            /*         for (int i = 0; i < elemek; i++) {
-                System.out.println(buff[i].getElofordulas());
-            } */
             
             // sorbarendezi az elemeket gyakoriság alapján
             for (int i = 0; i < elemek - 1; i++) {
@@ -71,10 +67,6 @@ public class RSATeszt {
                     }
                 }
             }
-
-            /* for (int i = 0; i < elemek; i++) {
-                System.out.println(buff[i].getElofordulas());
-            } */
             
             // a jelekhez kulcsot rendel - a leggyakrabban előforduló jelhez a leggyakrabban előforduló karaktert rendeli
             for (int i = 0; i < gyakorisag.size(); i++) {
